@@ -39,7 +39,17 @@ Move the cursor onto a polygon vertex. When iSAT-SAM changes the cursor to an op
 
 ## Installation
 
-Install the plugin in the same Python or Conda environment as iSAT-SAM:
+Install the plugin in the same Python or Conda environment as iSAT-SAM.
+
+### From GitHub Releases (recommended)
+
+Download `isat_plugin_hover_delete-0.3.2-py3-none-any.whl` from the [v0.3.2 release](https://github.com/CropUpperY/isat-plugin-hover-delete/releases/tag/v0.3.2), open a terminal in the download folder, and run:
+
+```bash
+python -m pip install isat_plugin_hover_delete-0.3.2-py3-none-any.whl
+```
+
+### From source
 
 ```bash
 git clone https://github.com/CropUpperY/isat-plugin-hover-delete.git
@@ -49,10 +59,10 @@ python -m pip install .
 
 Restart iSAT-SAM, open the plugin manager, and enable `HoverDeletePlugin`.
 
-To upgrade after pulling a newer version:
+To upgrade an existing installation from a downloaded wheel:
 
 ```bash
-python -m pip install --upgrade .
+python -m pip install --upgrade isat_plugin_hover_delete-0.3.2-py3-none-any.whl
 ```
 
 ## Usage
