@@ -39,7 +39,17 @@
 
 ## 安装
 
-请在安装 iSAT-SAM 的同一个 Python 或 Conda 环境中安装插件：
+请在安装 iSAT-SAM 的同一个 Python 或 Conda 环境中安装插件。
+
+### 从 GitHub Releases 安装（推荐）
+
+从 [v0.3.2 Release](https://github.com/CropUpperY/isat-plugin-hover-delete/releases/tag/v0.3.2) 下载 `isat_plugin_hover_delete-0.3.2-py3-none-any.whl`，在下载目录中打开终端，然后运行：
+
+```bash
+python -m pip install isat_plugin_hover_delete-0.3.2-py3-none-any.whl
+```
+
+### 从源码安装
 
 ```bash
 git clone https://github.com/CropUpperY/isat-plugin-hover-delete.git
@@ -49,10 +59,10 @@ python -m pip install .
 
 安装后重启 iSAT-SAM，打开插件管理器并启用 `HoverDeletePlugin`。
 
-拉取新版本后可执行以下命令升级：
+如需用下载的 wheel 升级已有安装：
 
 ```bash
-python -m pip install --upgrade .
+python -m pip install --upgrade isat_plugin_hover_delete-0.3.2-py3-none-any.whl
 ```
 
 ## 使用方法
